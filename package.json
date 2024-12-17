@@ -8,7 +8,7 @@
     "services/*"
   ],
   "scripts": {
-    "postinstall": "preconstruct dev",
+    "postinstall": "preconstruct dev && manypkg check",
     "build": "preconstruct build"
   },
   "preconstruct": {
